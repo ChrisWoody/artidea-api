@@ -1,12 +1,12 @@
 using System.Net;
 
-public static async Task<HttpResponseMessage> Run(HttpRequestMessage req)
+public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log)
 {
     try
     {
-        //log.Info("Going to find an art idea...");
+        log.Info("Going to find an art idea...");
         var idea = FindRandomArtIdea();
-        //log.Info($"Found the idea \"{idea}\"");
+        log.Info($"Found the idea \"{idea}\"");
         
         return req.CreateResponse(HttpStatusCode.OK, idea);
     }
