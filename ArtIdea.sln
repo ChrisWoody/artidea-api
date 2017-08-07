@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArtIdea.Core", "ArtIdea.Core\ArtIdea.Core.csproj", "{70CA06F2-E364-4972-A347-E6679BE420BA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArtIdea.Function", "ArtIdea.Function\ArtIdea.Function.csproj", "{67F3B3BB-A0B5-40A4-A1ED-AEC8181A3F7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{70CA06F2-E364-4972-A347-E6679BE420BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70CA06F2-E364-4972-A347-E6679BE420BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70CA06F2-E364-4972-A347-E6679BE420BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F3B3BB-A0B5-40A4-A1ED-AEC8181A3F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F3B3BB-A0B5-40A4-A1ED-AEC8181A3F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F3B3BB-A0B5-40A4-A1ED-AEC8181A3F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F3B3BB-A0B5-40A4-A1ED-AEC8181A3F7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
