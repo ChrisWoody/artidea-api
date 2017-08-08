@@ -1,6 +1,8 @@
 # artidea-api
 A simple Azure Function that scrapes http://artprompts.org/ to return a random art subject idea.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/kcb72tgyr29d5263?svg=true)](https://ci.appveyor.com/project/ChrisWoody/artidea-api)
+
 ## How To Use
 You can call the API by navigating to the url https://chriswoodyfuncs.azurewebsites.net/api/artidea via your browser.
 
