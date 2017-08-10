@@ -1,4 +1,4 @@
-#r "ArtIdea.Core.dll" // note for future, might require to be in a bin folder, https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-csharp#referencing-custom-assemblies
+#r "ArtIdea.Core.dll" // must be in a bin folder, https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-csharp#referencing-custom-assemblies
 
 using System.Net;
 using ArtIdea.Core;
@@ -9,7 +9,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
     {
         log.Info("Going to find an art idea...");
         var provider = new ArtIdeaProvider();
-        var info = provider.GetRandomArtIdea();
+        var idea = provider.GetRandomArtIdea();
         log.Info($"Found \"{idea}\"");
         
         return req.CreateResponse(HttpStatusCode.OK, idea);
